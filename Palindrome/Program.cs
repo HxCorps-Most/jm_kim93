@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 public class Palindrome
 {
@@ -18,6 +19,12 @@ public class Palindrome
 
     public static void Main(string[] args)
     {
+        Stopwatch swh = new Stopwatch();
+        swh.Start();
+
         Console.WriteLine(Palindrome.IsPalindrome("Deleveled"));
+
+        swh.Stop();
+        Console.WriteLine(swh.ElapsedMilliseconds.ToString());
     }
 }
