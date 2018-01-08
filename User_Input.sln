@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User_Input", "User_Input\User_Input.csproj", "{2E1F76BB-DDC2-4565-B556-72DF8FAD231A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1F76BB-DDC2-4565-B556-72DF8FAD231A}.Debug|x86.ActiveCfg = Debug|x86
+		{2E1F76BB-DDC2-4565-B556-72DF8FAD231A}.Debug|x86.Build.0 = Debug|x86
+		{2E1F76BB-DDC2-4565-B556-72DF8FAD231A}.Release|x86.ActiveCfg = Release|x86
+		{2E1F76BB-DDC2-4565-B556-72DF8FAD231A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
