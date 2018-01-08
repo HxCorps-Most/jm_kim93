@@ -20,7 +20,7 @@ public class NumericInput : TextInput  // accepts only digits
     public NumericInput() {}
     override public void Add(char c)
     {
-        if (c >= 48 && c < 57) base.Add(c);
+        if (c >= 48 && c < 58) base.Add(c);
     }
 }
 
