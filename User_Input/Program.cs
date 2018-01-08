@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 public class TextInput // accepts all characters
 {
@@ -27,10 +28,16 @@ public class UserInput
 {
     public static void Main(string[] args)
     {
+        Stopwatch swh = new Stopwatch();
+        swh.Start();
+
         TextInput input = new NumericInput();
         input.Add('1');
         input.Add('a');
         input.Add('0');
         Console.WriteLine(input.GetValue());
+
+        swh.Stop();
+        Console.WriteLine(swh.ElapsedMilliseconds.ToString());
     }
 }
