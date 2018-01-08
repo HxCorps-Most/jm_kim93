@@ -9,7 +9,7 @@ public class Palindrome
         if (word[0].ToString().ToLower() != word[length - 1].ToString()) return false;
         for (int i = 1; i <= length - middle - 1;i++)
         {
-            if (word[i] != word[length - 1 - i]) return false;
+            if (word[i].ToString() != word[length - 1 - i].ToString()) return false;
         }
         return true;
         throw new NotImplementedException("Waiting to be implemented.");
