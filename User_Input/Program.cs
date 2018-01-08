@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace User_Input
+public class TextInput {}
+
+public class NumericInput {}
+
+public class UserInput
 {
-    class MainClass
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        //TextInput input = new NumericInput();
+        //input.Add('1');
+        //input.Add('a');
+        //input.Add('0');
+        //Console.WriteLine(input.GetValue());
     }
 }
